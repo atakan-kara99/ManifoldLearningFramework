@@ -2,6 +2,8 @@
 
 This repository contains a small Python toolkit used during a Bachelor's thesis for experimenting with dimensionality reduction (MDS, LLE, t-SNE), clustering (KMeans, DBSCAN) and several evaluation criteria (Frobenius norm of pairwise distances, trustworthiness / k-NN, silhouette coefficient, ARI / AMI). It includes data handling utilities, caching of intermediate results (low-dimensional embeddings, clustering outputs, evaluations) and plotting helpers for visual analysis.
 
+**NOTE: THIS CODE FRAMEWORK IS RELATED TO MY [BACHELOR THESIS](https://github.com/atakan-kara99/BachelorThesis).**
+
 ## Features
 - Compute low-dimensional embeddings with MDS, LLE and t-SNE (scikit-learn).
 - Save and load computed embeddings (`data_low`) for later analysis.
